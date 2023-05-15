@@ -13,7 +13,7 @@ def json_to_html_list(data):
         html_list += f"<b>Objective:</b> {test_case['objective']}<br>"
         html_list += "<b>Steps:</b><ol>"
         for step in test_case['steps']:
-            html_list += f"<li>{step['step']}<br><i>Expected Behavior:</i> {step['expectedBehavior']}</li>"
+            html_list += f"<li>{step['step']}<br><i>Expected Behaviour:</i> {step['expectedBehaviour']}</li>"
         html_list += "</ol></li>"
     html_list += "</ul>"
     return html_list
